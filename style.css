@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to right, #5fd6dc ,#67b5e3,#a74bec, #e338f6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dad-container{
+    width: 480px;
+    height: 89%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.dad-container h2{
+    text-align: center;
+    padding-top:50px ;
+    font-size: 40px;
+    font-weight:bold;
+}
+
+.dad-container form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.dad-container form label{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.dad-container form input{
+    border: none;
+    font-size: 20px;
+    outline: none;
+    padding: 5px 0px;
+    padding: 8px 0px;
+    border-bottom: 1.5px solid rgb(225, 223, 223);
+
+}
+.dad-container form input::placeholder{
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.dad-container form span{
+    padding-top:23px ;
+    font-size: 13px;
+    text-align: right;
+    padding-bottom:20px ;
+    color: rgb(86, 86, 86);
+
+}
+
+.dad-container form .sub{
+    margin-top: 20px;
+    font-size:19px ;
+    font-weight: bold;
+    color: white;
+    background:linear-gradient(to right , #65d4db ,#89a9e4,#bd6df0,#e73ef1);
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    transition: ease-in-out 0.4s;
+
+}
+.dad-container form .sub:hover{
+    letter-spacing: 2px;
+
+}
+
+.using-other{
+    text-align: center;
+    padding-top: 33px;
+    font-size: 14px;
+    color: rgb(86, 86, 86);
+
+}
+
+.links{
+    padding-top:33px;
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     gap: 10px   
+}
+
+.links a img{
+    width: 40px;
+}
+
+.links a .google{
+    border-radius: 50%;
+}
+
+
+.sign-up{
+    text-align: center;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up span{
+    font-size: 14px;
+    color: rgb(86, 86, 86);
+
+}
+
+.sign-up a{
+    font-size: 16px;
+    text-decoration: none;
+    padding-top: 20px;
+    color: black;
+    
+}
+
+
+
+
+
+/* ========== sign up ==============  */
+
+.container2{
+    position: relative;
+    overflow: hidden;
+}
+
+.container2::after{
+    position: absolute;
+    content: '';
+    width: 100% ;
+    height: 160px;
+    background: linear-gradient(to right,#65d4db ,#89a9e4,#bd6df0,#e73ef1 );
+    bottom: 0;
+    border-radius: 50% 50% 0px 0px;
+    
+
+
+}
